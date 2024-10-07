@@ -28,11 +28,12 @@ export default function Welcome() {
         <div>
           <ul className="flex gap-4 flex-wrap max-w-5xl justify-center items-center">
             <li className="p-4 bg-cyan-700 text-white rounded-md hover:scale-110 transition-all">
-              React {data.dependencies.react}
-            </li>
-            <li className="p-4 bg-cyan-700 text-white rounded-md hover:scale-110 transition-all">
               Vite {data.devDependencies.vite}
             </li>
+            <li className="p-4 bg-cyan-700 text-white rounded-md hover:scale-110 transition-all">
+              React {data.dependencies.react}
+            </li>
+
             <li className="p-4 bg-cyan-700 text-white rounded-md hover:scale-110 transition-all">
               React Dom {data.dependencies['react-dom']}
             </li>
