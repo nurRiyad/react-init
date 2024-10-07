@@ -1,11 +1,48 @@
-# React + TypeScript + Vite
+# React Init
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This boilerplate should help get you started developing with react in Vite.
 
-Currently, two official plugins are available:
+## Out of the box configured with
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- React Router
+- TailwindCss
+- Eslint
+- Prettier
+
+## Recommended IDE setup
+
+[VSCode](https://code.visualstudio.com/)
+
+## Recommended VsCode Extension
+
+- Eslint
+- Prettier
+- Spell Checker
+
+## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Type-Check, Compile and Minify for Production
+
+```sh
+npm run build
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+npm run lint
+```
 
 ## Expanding the ESLint configuration
 
